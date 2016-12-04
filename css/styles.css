@@ -71,7 +71,49 @@ body {
   float: right;
 }
 
-@media only screen and (min-width:600px)
+@media only screen and (min-width:600px) {
+  .main {
+    width: 100vw;
+    height: 55vh;
+  }
+
+  .tile1 {
+    width: 50vw;
+    height: 45vh;
+    float: left;
+  }
+
+  .photo1 {
+    width: 50vw;
+    height: 30vh;
+    float:left;
+  }
+
+  .info-tile1 {
+    width: 50vw;
+    height: 15vh;
+    float:left;
+  }
+
+  .tile2 {
+    width: 50vw;
+    height: 45vh;
+    float: right;
+  }
+
+  .photo2 {
+    width: 50vw;
+    height: 30vh;
+    float:right;
+  }
+
+  .info-tile2 {
+    width: 50vw;
+    height: 15vh;
+    float:right;
+  }
+
+}
 /*img.main-photo {
 position: relative;
 width: 100%;
