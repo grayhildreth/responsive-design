@@ -6,11 +6,6 @@
             box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  width: 100vw;
-  height: 100vh;
-}
 
 .main-tile {
   background-image: url('../img/main.jpg');
@@ -18,10 +13,6 @@ body {
   height: 50vh;
   background-size: cover;
   background-position: top;
-  position: relative;
-  display: block;
-  /*min-height: 300px;
-  overflow: hidden;*/
 }
 
 .tile1 {
@@ -36,8 +27,6 @@ body {
   float: left;
   background-size: cover;
   background-position: center;
-  position: relative;
-  display: block;
 }
 
 .info-tile1 {
@@ -60,8 +49,6 @@ body {
   float: left;
   background-size: cover;
   background-position: right;
-  position: relative;
-  display: block;
 }
 
 .info-tile2 {
@@ -72,7 +59,7 @@ body {
 }
 
 @media only screen and (min-width:600px) {
-  .main {
+  .main-tile {
     width: 100vw;
     height: 55vh;
   }
@@ -113,6 +100,44 @@ body {
     float:right;
   }
 
+}
+
+@media only screen and (min-width:1000px) {
+  .main-tile {
+    width: 70%;
+    height: 100vh;
+    float: left;
+  }
+
+  .tile1 {
+    width: 30%;
+    height: 50vh;
+  }
+
+  .photo1 {
+    width: 30vw;
+    height: 30vh;
+  }
+
+  .info-tile1 {
+    width: 30vw;
+    height: 20vh;
+  }
+
+  .tile2 {
+    width: 30%;
+    height: 50vh;
+  }
+
+  .photo2 {
+    width: 30vw;
+    height: 30vh;
+  }
+
+  .info-tile2 {
+    width: 30vw;
+    height: 20vh;
+  }
 }
 /*img.main-photo {
 position: relative;
