@@ -8,9 +8,71 @@
 
 body {
   margin: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
-.main-photo {
+.main-tile {
+  background-image: url('../img/main.jpg');
+  width: 100vw;
+  height: 50vh;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  display: block;
+  /*min-height: 300px;
+  overflow: hidden;*/
+}
+
+.tile1 {
+  width: 100vw;
+  height: 25vh;
+}
+
+.photo1 {
+  background-image: url('../img/photo1.jpg');
+  width:33vw;
+  height:25vh;
+  float: left;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: block;
+}
+
+.info-tile1 {
+  background-color: #1d3b87;
+  width: 67vw;
+  height: 25vh;
+  float: right;
+}
+
+
+.tile2 {
+  width: 100vw;
+  height: 25vh;
+}
+
+.photo2 {
+  background-image: url('../img/photo2.jpg');
+  width: 33vw;
+  height: 25vh;
+  float: left;
+  background-size: cover;
+  background-position: right;
+  position: relative;
+  display: block;
+}
+
+.info-tile2 {
+  background-color: #21b796;
+  width: 67vw;
+  height: 25vh;
+  float: right;
+}
+
+@media only screen and (min-width:600px)
+/*img.main-photo {
 position: relative;
 width: 100%;
 min-height: auto;
@@ -23,12 +85,34 @@ background-image: url('../img/main.jpg');
 text-align: center;
 }
 
-.photo1 {
+.main-photo {
+  float:left;
+  width: 100vw;
+  height: 50vh;
+}
 
+.photo1 {
+  float: left;
+  width: 33vw;
+  height: 25vh;
+}
+
+.info-tile1 {
+  float: left;
+  width: 67vw;
+  height: 25vh;
 }
 
 .photo2 {
+  float: left;
+  width: 33vw;
+  height: 25vh;
+}
 
+.info-tile2 {
+  float: left;
+  width: 67vw;
+  height: 25vh;
 }
 
 .info-tile1 {
@@ -39,38 +123,18 @@ text-align: center;
   background-color: #21b796;
 }
 
-@media only screen and (max-width:600px) {
-  .main-photo {
-    float:left;
-    width: 100vw;
-    height: 50vh;
-  }
+.med-info-tile1 {
+  display: none;
+  background-color: #1d3b87;
+}
 
-  .photo1 {
-    float: left;
-    width: 33vw;
-    height: 25vh;
-  }
+.med-info-tile2 {
+  background-color: #21b796;
+  display: none;
+}
 
-  .info-tile1 {
-    float: left;
-    width: 67vw;
-    height: 25vh;
-  }
 
-  .photo2 {
-    float: left;
-    width: 33vw;
-    height: 25vh;
-  }
-
-  .info-tile2 {
-    float: left;
-    width: 67vw;
-    height: 25vh;
-  }
-
-/*@media only screen and (min-width:601px) {
+@media only screen and (min-width:600px) {
   .main-photo {
     float:left;
     width: 100vw;
@@ -79,25 +143,62 @@ text-align: center;
 
   .photo1 {
     float: left;
-    width: 33vw;
-    height: 25vh;
+    width: 50vw;
+    height: 30vh;
   }
 
-  .info-tile1 {
+  .med-info-tile1 {
     float: left;
-    width: 67vw;
-    height: 25vh;
+    width: 50vw;
+    height: 15vh;
+
   }
 
   .photo2 {
     float: left;
-    width: 33vw;
-    height: 25vh;
+    width: 50vw;
+    height: 30vh;
+  }
+
+  .med-info-tile2 {
+    float: left;
+    width: 50vw;
+    height: 15vh;
+  }
+
+  .info-tile1, .info-tile2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width:1025px) {
+  .main-photo {
+    float:left;
+    width: 70vw;
+    height: 100vh;
+  }
+
+  .photo1 {
+    float: left;
+    width: 30vw;
+    height: 30vh;
+  }
+
+  .info-tile1 {
+    float: left;
+    width: 30vw;
+    height: 20vh;
+  }
+
+  .photo2 {
+    float: right;
+    width: 30vw;
+    height: 30vh;
   }
 
   .info-tile2 {
     float: left;
-    width: 67vw;
-    height: 25vh;
+    width: 30vw;
+    height: 20vh;
   }
 }*/
