@@ -18,6 +18,14 @@ body {
   height: 50vh;
   background-size: cover;
   background-position: top;
+  padding-top: 28vh;
+}
+
+.inside-tile {
+  background-color: #555759;
+  padding: 10px;
+  width: 90vw;
+  margin-left: 15px;
 }
 
 .tile1 {
@@ -71,6 +79,10 @@ body {
   .main-tile {
     width: 100vw;
     height: 55vh;
+  }
+
+  .inside-tile {
+    width: 12em;
   }
 
   .tile1 {
@@ -148,133 +160,3 @@ body {
     height: 20vh;
   }
 }
-/*img.main-photo {
-position: relative;
-width: 100%;
-min-height: auto;
--webkit-background-size: cover;
--moz-background-size: cover;
-background-size: cover;
--o-background-size: cover;
-background-position: center;
-background-image: url('../img/main.jpg');
-text-align: center;
-}
-
-.main-photo {
-  float:left;
-  width: 100vw;
-  height: 50vh;
-}
-
-.photo1 {
-  float: left;
-  width: 33vw;
-  height: 25vh;
-}
-
-.info-tile1 {
-  float: left;
-  width: 67vw;
-  height: 25vh;
-}
-
-.photo2 {
-  float: left;
-  width: 33vw;
-  height: 25vh;
-}
-
-.info-tile2 {
-  float: left;
-  width: 67vw;
-  height: 25vh;
-}
-
-.info-tile1 {
-  background-color: #1d3b87;
-}
-
-.info-tile2 {
-  background-color: #21b796;
-}
-
-.med-info-tile1 {
-  display: none;
-  background-color: #1d3b87;
-}
-
-.med-info-tile2 {
-  background-color: #21b796;
-  display: none;
-}
-
-
-@media only screen and (min-width:600px) {
-  .main-photo {
-    float:left;
-    width: 100vw;
-    height: 55vh;
-  }
-
-  .photo1 {
-    float: left;
-    width: 50vw;
-    height: 30vh;
-  }
-
-  .med-info-tile1 {
-    float: left;
-    width: 50vw;
-    height: 15vh;
-
-  }
-
-  .photo2 {
-    float: left;
-    width: 50vw;
-    height: 30vh;
-  }
-
-  .med-info-tile2 {
-    float: left;
-    width: 50vw;
-    height: 15vh;
-  }
-
-  .info-tile1, .info-tile2 {
-    display: none;
-  }
-}
-
-@media only screen and (min-width:1025px) {
-  .main-photo {
-    float:left;
-    width: 70vw;
-    height: 100vh;
-  }
-
-  .photo1 {
-    float: left;
-    width: 30vw;
-    height: 30vh;
-  }
-
-  .info-tile1 {
-    float: left;
-    width: 30vw;
-    height: 20vh;
-  }
-
-  .photo2 {
-    float: right;
-    width: 30vw;
-    height: 30vh;
-  }
-
-  .info-tile2 {
-    float: left;
-    width: 30vw;
-    height: 20vh;
-  }
-}*/
