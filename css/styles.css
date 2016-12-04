@@ -6,6 +6,11 @@
             box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
 
 .main-tile {
   background-image: url('../img/main.jpg');
@@ -34,6 +39,8 @@
   width: 67vw;
   height: 25vh;
   float: right;
+  padding-left: 20px;
+  padding-bottom: 40px;
 }
 
 
@@ -56,6 +63,8 @@
   width: 67vw;
   height: 25vh;
   float: right;
+  padding-left: 20px;
+  padding-bottom: 40px;
 }
 
 @media only screen and (min-width:600px) {
